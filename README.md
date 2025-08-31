@@ -21,7 +21,9 @@ conda activate py_38
 ```
 
 ## Data acquisition
+
 In this study, we utilized two multimodal EHR datasets: 
+
 - MIMIC-III: https://physionet.org/content/mimiciii/1.4/
 - ZICIP: https://physionet.org/content/icu-infection-zigong-fourth/1.1/
 
@@ -39,6 +41,7 @@ Under data directory `./data/datasets/mimic/`, run the following python script f
 In this project, we utilize [Comet](https://www.comet.com/site/?utm_source=chatgpt.com) for experiment management. To connect to the service, you’ll need to configure your login credentials in `utils/logger.py`.
 
 For a seamless experience, we recommend running the experiment via `train_enn.py`. This script allows you to easily manage experiments with various hyperparameter configurations. To train with the default hyperparameters, simply run:
+
 ```
 python train_enn.py
 ```
