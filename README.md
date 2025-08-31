@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository provides a demo code for an DST-based multimodal fusion approach on EHRs for ICU outcome prediction.
+This repository provides a demo code for an BFT-based multimodal fusion approach on EHRs for ICU outcome prediction.
 
 ## Installation
 
