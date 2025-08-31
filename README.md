@@ -21,7 +21,7 @@ conda activate py_38
 ```
 
 ## Data acquisition
-In this study, we have experimented two multimodal EHR datasets: 
+In this study, we utilized two multimodal EHR datasets: 
 - MIMIC-III: https://physionet.org/content/mimiciii/1.4/
 - ZICIP: https://physionet.org/content/icu-infection-zigong-fourth/1.1/
 
