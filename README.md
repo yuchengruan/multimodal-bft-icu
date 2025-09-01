@@ -40,10 +40,11 @@ Under data directory `./data/datasets/mimic/`, run the following python script f
 
 In this project, we utilize [Comet](https://www.comet.com/site/?utm_source=chatgpt.com) for experiment management. To connect to the service, you’ll need to configure your login credentials in `utils/logger.py`.
 
+We provide a Jupyter notebook [train_enn.ipynb](./train_enn.ipynb) that demonstrates the training process. You can manually configure the hyperparameters by adjusting the `hparams_dict` in the notebook.
+
 For a seamless experience, we recommend running the experiment via `train_enn.py`. This script allows you to easily manage experiments with various hyperparameter configurations. To train with the default hyperparameters, simply run:
 
 ```
 python train_enn.py
 ```
 
-Additionally, we provide a Jupyter notebook (`train_enn.ipynb`) that demonstrates the training process. You can manually configure the hyperparameters by adjusting the `hparams_dict` in the notebook.
